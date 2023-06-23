@@ -1,0 +1,118 @@
+.Login{
+ display: grid;
+ width: 100%;
+ grid-template-columns: 1fr 1fr;
+ grid-template-areas: 
+ "left right";
+}
+.quotes{
+    grid-area: left;
+    height: 30vh;
+    margin-left: 4vw;
+    margin-top: 3vh;
+    width: 75%;
+    border: 1px solid antiquewhite;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    text-indent: 14px;
+    text-rendering: geometricPrecision;
+    text-justify: auto;
+    background-color: thistle;
+}
+.list{
+    list-style-image: url('./images/pen-quote.png');
+    list-style-position:inside;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Form{
+   border: 1px solid antiquewhite;
+   height: 55vh;
+   width: 45vw;
+   margin-top: 2vh;
+   padding-top: 14px;
+   border-radius: 12px;
+   background-color: thistle;
+}
+.person{
+  display: flex;
+  justify-content: space-evenly;
+}
+.person input{
+    height: 5vh;
+    width: 20vw;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+#phone{
+    text-indent: 22px;
+    background: url('./images/phone.png') no-repeat left;
+    background-size: 23px;
+}
+#email{
+    background: url('./images/email.png') no-repeat left;
+    background-size: 23px;
+    text-indent: 25px;
+}
+#college{
+    padding-left: 12px;
+    background:url('./images/college.png') no-repeat left;
+    background-size: 23px;
+    text-indent: 20px;
+}
+.program{
+    display: grid;
+    font-size: 18px;
+    margin-left: 1.5vw;
+    margin-top:12px;
+    grid-template-columns: 20vw 20vw;
+    column-gap: 1.5vw;
+    width: 45vw;
+}
+ .programs-type>select{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 12px;
+    font-size: 18px;
+    text-indent: 12px;
+}
+.select-subject>select{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 12px;
+    font-size: 18px;
+    text-indent: 12px;
+    margin-top: 1px;
+}
+#month{
+    width: 41.6vw;
+    margin-left: 1.5vw;
+    height: 5vh;
+    border-radius: 12px;
+    text-indent: 12px;
+    font-size: 17px;
+    margin-top: 3px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#batch{
+    margin-left: 1.5vw;
+}
+#submit{
+    width: 40vw;
+    margin-left: 1.5vw;
+    margin-top: 2vh;
+    height: 6vh;
+    border-radius: 12px;
+    color: azure;
+    background-color: blue;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    outline-offset: 0;
+    outline-style: none;
+    outline-color: none;
+    border: 1px ridge transparent;
+}
